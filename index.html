@@ -24,57 +24,39 @@
 						width="110"
 					/>
 				</div>
+				<div class="nav-button">
+				<a href="/login.html">
+					<input type="button" value="Login">
+			</a></div>
+				
 			</div>
 		</div>
 	</header>
-
-		<div class="bodyContainer">
-			<div class="sidebar">
-				<a class="active" href="#">Home</a>
-				<a href="#">Sign Up</a>
-				<a href="#">About Us</a>
-			</div>
-
 			<div class="mainContainer">
 				<div class="container mt-10">
 					<div class="row position-relative">
-						
 						<div class="col">
-							<div class="card border-light mb-3" style="width:375px;height:275px;">
-								<div class="card-header">Title</div>
-								<div class="card-body">
-									<p class="card-text">
-										Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Tempora dolor
-										similique voluptate reiciendis excepturi
-										esse, itaque maiores neque aliquid
-										cumque! Eaque repellendus ad inventore
-									</p>
-									<a href="#" class="card-link">Read More</a>
-									<a href="#" class="card-link">comments</a>
-									<div class="card-footer">Posted By xyz</div>
-								</div>
-							</div>
-						</div>
+						<div class="card border-light mb-3" style="width:375px;height:275px;">
+						<div class="card-header">Title</div>
+						<div class="card-body">
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Tempora dolor
+							similique voluptate reiciendis excepturi
+							esse, itaque maiores neque aliquid
+							cumque! Eaque repellendus ad inventore
+						</p>
+						<a href="#" class="card-link">Read More</a>
+						<a href="#" class="card-link">comments</a>
+						<div class="card-footer">Posted By xyz</div></div></div></div>
 					</div>
-				</div>
+				</d
 			</div>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script >
-			$(window).scroll(function (e) {
-				var $el = $('.sidebar');
-				var isPositionFixed = $el.css('position') == 'fixed';
-				if ($(this).scrollTop() > 50) {
-					// $el.css('margin-top', 0);
-					$el.stop().animate({marginTop: '0px'},80);
-				}
-				if ($(this).scrollTop() < 50) {
-					// $el.css('margin-top', 100);
-					$el.stop().animate({marginTop: '100px'},80);
-				}
-			});
-    </script>
+
+			<div class="footer">
+				@Copyright (c)
+			</div>
+    </div>
 
 </body>
 </html>
